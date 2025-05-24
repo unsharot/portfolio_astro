@@ -9,6 +9,7 @@ import Social from "./Social.astro";
             width="40"
             height="40"
         />
+        <span class="my-name">Suzuki Shuntaro</span>
     </a>
     <Social
         platformName="GitHub"
@@ -37,5 +38,14 @@ import Social from "./Social.astro";
 
     .icon {
         margin: 0rem 1rem;
+        display: flex;
+        text-decoration: none;
+    }
+    
+    .my-name {
+        padding: 0.5rem 1rem;
+        color: white;
+        text-decoration: none;
+        margin: 0.1rem 0.5rem;
     }
 </style>

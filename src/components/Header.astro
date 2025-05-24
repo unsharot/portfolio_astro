@@ -4,12 +4,27 @@ import Social from "./Social.astro";
 
 <p>
     <a href="/">Portfolio - Suzuki Shuntaro</a>
+    <Social platformName="GitHub" username="unsharot" url="https://github.com" />
+    <Social platformName="Twitter" username="sh_unnnn_taro" url="https://x.com" />
+    <Social
+        platformName="AtCoder"
+        username="sh_unnnn_taro"
+        url="https://atcoder.jp/users"
+    />
 </p>
 
-<Social platformName="GitHub" username="unsharot" url="https://github.com" />
-<Social platformName="Twitter" username="sh_unnnn_taro" url="https://x.com" />
-<Social
-    platformName="AtCoder"
-    username="sh_unnnn_taro"
-    url="https://atcoder.jp/users"
-/>
+<style>
+    p {
+        padding: 0.5rem;
+        width: 100%;
+        background-color: rgb(2, 2, 22);
+        margin: 0;
+    }
+
+    a {
+        color: white;
+        text-decoration: none;
+        padding: 1rem 1rem;
+        margin: 1rem;
+    }
+</style>

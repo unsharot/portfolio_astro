@@ -2,3 +2,8 @@ html {
     background-color: #ede8f7;
     font-family: sans-serif;
 }
+
+body {
+    margin: 0 auto;
+    width: 100%;
+}

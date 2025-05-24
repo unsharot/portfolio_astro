@@ -2,8 +2,10 @@
 import Social from "./Social.astro";
 ---
 
-<p>
-    <a href="/">Portfolio - Suzuki Shuntaro</a>
+<div class="header">
+    <a href="/">
+        <img src="/icon_no_frame_square.png" width="40" height="40" />
+    </a>
     <Social
         platformName="GitHub"
         username="unsharot"
@@ -19,20 +21,14 @@ import Social from "./Social.astro";
         username="sh_unnnn_taro"
         url="https://atcoder.jp/users"
     />
-</p>
+</div>
 
 <style>
-    p {
+    .header {
         padding: 0.5rem;
         width: 100%;
         background-color: rgb(2, 2, 22);
         margin: 0;
-    }
-
-    a {
-        color: white;
-        text-decoration: none;
-        padding: 1rem 1rem;
-        margin: 1rem;
+        display: flex;
     }
 </style>

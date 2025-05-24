@@ -8,6 +8,10 @@ body {
     width: 100%;
 }
 
+.page-content {
+    margin: 5rem;
+}
+
 .social {
     display: none;
 }

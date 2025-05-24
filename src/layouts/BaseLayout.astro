@@ -1,5 +1,5 @@
 ---
-import Footer from "../components/Footer.astro";
+import Header from "../components/Header.astro";
 
 const { pageTitle } = Astro.props;
 ---
@@ -13,11 +13,7 @@ const { pageTitle } = Astro.props;
         <title>{pageTitle}</title>
     </head>
     <body>
-        <h1>
-            <a href="/">Portfolio - Suzuki Shuntaro</a>
-        </h1>
+        <Header />
         <slot />
     </body>
-
-    <Footer />
 </html>

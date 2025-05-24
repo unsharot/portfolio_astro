@@ -1,7 +1,32 @@
 ---
-const { title, url } = Astro.props;
+const { title, subtitle, period, url, imgSrc } = Astro.props;
 ---
 
-<div>
-    <a href={url}>{title}</a>
-</div>
+<a href={url}>
+    <div>
+        <img src={imgSrc} width="500" />
+
+        <p>
+            <span class="title">{title}</span>
+            <span class="period">({period})</span>
+        </p>
+        <p class="subtitle">{subtitle}</p>
+    </div>
+</a>
+
+<style>
+    a {
+        text-decoration: none;
+        color: black;
+        margin: 2rem;
+        display: inline-flex;
+    }
+    .title {
+        font-weight: bold;
+    }
+    .period {
+        text-align: right;
+    }
+    .subtitle {
+    }
+</style>

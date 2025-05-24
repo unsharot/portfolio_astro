@@ -2,7 +2,7 @@
 const { platformName, username, url } = Astro.props;
 ---
 
-<a href={`${url}/${username}`}>{platformName}({username})</a>
+<a class="social" href={`${url}/${username}`}>{platformName}</a>
 
 <style>
     a {

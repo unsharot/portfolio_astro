@@ -18,11 +18,14 @@ const { title, subtitle, period, url, imgSrc } = Astro.props;
     a {
         text-decoration: none;
         color: black;
-        margin: 2rem;
+        margin: 2%;
         display: inline-flex;
     }
     a:hover img {
         box-shadow: 1rem 1rem 1rem rgba(0, 0, 0, 0.082);
+    }
+    img {
+        max-width: 100%;
     }
     .title {
         font-weight: bold;
